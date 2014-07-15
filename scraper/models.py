@@ -36,7 +36,7 @@ class Review(models.Model):
 
     helpout       = models.ForeignKey(Helpout)
     reviewer_name = models.CharField(max_length=255)
-    review        = models.CharField(max_length=255)
+    review        = models.TextField()
 
     def __unicode__(self):
         return "%s reviewed %s" % (self.reviewer_name, self.helpout)
