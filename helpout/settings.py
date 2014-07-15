@@ -63,7 +63,7 @@ MIDDLEWARE_CLASSES = (
 
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 
-SITE_URL = 'http://localhost:8080/'
+SITE_URL = 'http://helpout-scraper.herokuapp.com/'
 
 ROOT_URLCONF = 'helpout.urls'
 
